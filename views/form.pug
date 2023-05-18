@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  form(method="POST", action="/new")
+    ul
+      li  
+        label(for="user") Usename: 
+          input(type="text", name="user")
+      li 
+        label(for="message") Message: 
+          textarea(name="message", cols="30", rows="10")
+    button Send

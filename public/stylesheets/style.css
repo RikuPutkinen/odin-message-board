@@ -13,12 +13,19 @@ ul {
 
 li {
   list-style: none;
-  border: 1px solid black;
   margin: 16px 0;
   padding: 8px;
+}
+
+.message {
+  border: 1px solid black;
 }
 
 .message-info {
   display: flex;
   gap: 16px;
+}
+
+textarea {
+  vertical-align: top;
 }
